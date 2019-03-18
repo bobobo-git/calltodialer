@@ -3,7 +3,7 @@
 
 Ein Programm zur Unterstützung des ADDONS tbdialout für Thunderbird  
 zur Anbindung der Windowswahlhilfe.  
-- calltodialer ruft den windowsdialer mit dem parameter callto:Rufnummer auf die Rufnummer sollte die vollständige kanonische Rufnumemr enthalten. +4989123456789 für eine Nummer in München
+- calltodialer ruft den windowsdialer mit dem parameter callto:Rufnummer auf die Rufnummer sollte die vollständige kanonische Rufnummer enthalten. +4989123456789 für eine Nummer in München
  - Die im Thunderbrid hinterlegte Rufnumemr wird in den Parametern von tbdialout
 nachbehandelt bezüglich der + und einer eventuell weiteren Amtsholung.
  - das Pluszeichen in eine Doppelnull umzuwandeln istz immer eine gute Idee, da die Windowswahlhilfe das + nicht versteht.

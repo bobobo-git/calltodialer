@@ -14,7 +14,7 @@ Priokom Informationtechnik GmBH
 2019-03-18
 
 
-<a href="/source/calltodialer.pb">source (purebasic)</a>  
+<a href="source/calltodialer.pb">source (purebasic)</a>  
 
 windowskompilat <a href="bin/calltodialer.zip">calltodialer.exe (zipped)</a>
 

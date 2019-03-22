@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="MarkdownViewer++" />
-    <title>calltoDialer</title>
+    <title>README.MD</title>
     <style type="text/css">
             
 /* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
@@ -18,17 +18,18 @@ td, h1, h2, h3, h4, h5, p, ul, ol, li {
     <p>Ein Programm zur Unterstützung des ADDONS tbdialout für Thunderbird<br />
 zur Anbindung der Windowswahlhilfe.</p>
     <ul>
-      <li>calltodialer ruft den windowsdialer mit dem parameter callto:Rufnummer auf die Rufnummer sollte die vollständige kanonische Rufnummer enthalten. z.B. +4989xxxxx für eine Nummer in München</li>
+      <li>calltodialer ruft den windowsdialer mit dem parameter callto:Rufnummer auf die Rufnummer sollte die vollständige kanonische Rufnummer enthalten. +4989xxxxx für eine Nummer in München</li>
       <li>Die im Thunderbrid hinterlegte Rufnummer wird in den Parametern von tbdialout
 nachbehandelt bezüglich der + und einer eventuell weiteren Amtsholung.</li>
       <li>das Pluszeichen in eine Doppelnull umzuwandeln istz immer eine gute Idee, da die Windowswahlhilfe das + nicht versteht.</li>
       <li>die Amtsholungsnull je nach Bedarf. Bei einer eingesetzten Telefonanlage ist die Amtsholungsnull oft von Nöten. Bei einzelnen Telefonen eher nicht.</li>
+      <li>es gibt das Zusatztool calltoDialerCaller, dass den calltoDialer aufrufen kann und dem die aktuelle Zwischenablage als zu wählende Rufnummer vorlegt. Die Zwischenablage sollte dann eine Rufnummer (möglichst kanonisch s.o.) enthalten. Eine Amtsholungsnummer kann hier in einer beiligeneden INI-datei hinterlegt werden. Das Programm wird gestartet und ist im SYSTRAY (neben der Uhr üblicherweise unten rechts) als P erkennbar. Ein Dopplelklick auf das P führt die Funktion aus, ein Klick mit der rechten Maustaste fragt nach Programmbeendigung. Bei einem NEIN wird das Programm nicht beendet aber die Funtkionsbeschreibung angezeigt.</li>
     </ul>
     <p>Priokom Informationtechnik GmBH</p>
-    <p>2019-03-18</p>
+    <p>2019-03-22</p>
     <p>
       <a href="source/calltodialer.pb">source (purebasic)</a>
     </p>
-    <p>windowskompilat <a href="bin/ctd.zip">calltodialer.exe (zipped)</a></p>
+    <p>windowskompilat <a href="bin/cdt.zip">calltodialer.exe (zipped)</a></p>
   </body>
 </html>

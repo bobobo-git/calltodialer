@@ -31,6 +31,17 @@ Repeat
     If EventType() = #PB_EventType_LeftDoubleClick
       num.s=GetClipboardText()
       Debug num
+      
+      For i = 1 To Len(num)
+        tmp.s= Mid(num,i,1)
+        If (Asc(tmp)>=48 And Asc(tmp)<=57) Or tmp="+"
+          out.s+ tmp
+        EndIf
+      Next i
+      num=out
+      tmp=""
+      out=""
+
       If Left(num,1)="+"
         num="00"+Mid(num,2,Len(num)-1)
       EndIf
@@ -58,10 +69,11 @@ Repeat
 Until Event = #PB_Event_CloseWindow
 End
 
-;+497319629426
+;irgendwasmit zahl erwin paul hans +497319629426
 
 ; IDE Options = PureBasic 5.61 (Windows - x86)
-; CursorPosition = 10
+; CursorPosition = 33
+; FirstLine = 22
 ; Folding = -
 ; EnableThread
 ; EnableXP
